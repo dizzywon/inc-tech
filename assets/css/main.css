@@ -1,0 +1,150 @@
+/* Your custom styles */
+html,
+body,
+header,
+#intro,
+.view {
+    height: 100vh
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; 
+}
+a{
+    cursor: pointer;
+}
+
+#intro {
+    background: url('../../assets/img/slides/img2.jpg')no-repeat center center;
+    background-size: cover;
+    
+    padding-top: 10rem;
+    
+
+}
+
+.navbar{
+	box-shadow: none !important;
+}
+
+.top-nav-collapse {
+    background: #424f95 !important;
+}
+
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+h6 {
+    line-height: 1.7 !important;
+}
+.hm-black-strong .full-bg-img {
+    opacity: 3 !important;
+}
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    } 
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 1020px; 
+    } 
+}
+.nav-link {
+	font-size: 20px !important;
+    /*text-transform: uppercase !important;*/
+}
+
+.display-4, .h1{
+    text-transform: uppercase !important;
+}
+
+.btn{
+    background: transparent !important;
+}
+.btn:hover{
+    background: transparent !important;
+    
+    
+}
+
+hr{
+    max-width: 50px;
+    border-width: 3px;
+}
+.light{
+    border-color: #424f95 ;
+}
+.section-description {
+    color: #757575;
+    margin-bottom: 4rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.section-heading{
+    margin-top: 0;  
+    padding-top: -20px;
+}
+#services, #portfolio, #team{
+    padding: 6rem 0;
+   
+}
+#team{
+    padding-top: 20px;
+}
+.section.team-section .grey-text {
+    color: #6e6e6e!important;
+}
+.section.team-section .avatar img {
+    max-width: 200px;
+    height: auto;
+}
+.icons-sm {
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+
+.fb-ic{
+    color: #3B5998!important;
+}
+.tw-ic{
+    color: #55ACEE!important;
+}
+.dribbble-ic {
+    color: #EC4A89!important;
+}
+.yt-ic {
+    color: #ED302F!important;
+}
+.ins-ic {
+    color: #2E5E86!important;
+}
+.git-ic{
+    color: #333 !important;
+}
+.gplus-ic {
+    color: #DD4B39!important;
+}
+.li-ic {
+    color: #0082CA!important;
+}
+.email-ic {
+    color: #4B515D!important;
+}
